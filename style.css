@@ -2,8 +2,9 @@
     --branco-principal:#FFFFFF;
     --cinza-segundario:#C0C0C0;
     --botão-azul:#167BF7;
-    --cor-de-fundo:#00030C;
+    --cor-de-fundo:#00030c;
     --fonte-principal: 'inter';
+    --botão-azul-efeito: #3c82e3;
 }
 
 body{
@@ -149,4 +150,16 @@ body{
     text-align: center;
     margin: 5em 3em;
 }
+ 
+.lista__link a:hover {
+  color: var(--botão-azul)
+}
 
+ .lista__link a:active{
+    color:purple
+ }
+ 
+ .container__Botão:hover{
+    background-color: var(--botão-azul-efeito);
+    color: var(--cor-de-fundo);
+ }
